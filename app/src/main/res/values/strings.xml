@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Face Operations</string>
+    <string name="app_train">Train</string>
+    <string name="app_recognize">Recognition</string>
+    <string name="app_train_page">Face Training</string>
+    <string name="app_recognize_page">Face Recognizing</string>
+    <string name="picture_button">Take Photo</string>
+    <string name="recognize_button">Recognize</string>
+</resources>

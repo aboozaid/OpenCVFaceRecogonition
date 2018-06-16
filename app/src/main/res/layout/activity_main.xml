@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.facedetection.app.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_train"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="59dp"
+        android:layout_marginStart="42dp"
+        android:background="?android:attr/colorMultiSelectHighlight"
+        android:fontFamily="monospace"
+        android:text="@string/app_train"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_recognize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_recognize"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="39dp"
+        android:background="?attr/colorAccent"
+        android:fontFamily="monospace"
+        android:text="@string/app_recognize"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_train"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_train" />
+</android.support.constraint.ConstraintLayout>

@@ -21,6 +21,7 @@ if you need to add an extra module [opencv_contrib] and don't know how feel free
 
 * First download the library from link above and add new Module from android studio then choose the library
 * After that, you gonna copy jniLibs from library to the main project to the same name folder, that because we're using C++ Code compiled with NDK so to make this code executes correctly we have to target which CPUs this device use.
+* Now your project should compile without any errors!
 
 ### Simple Video
 * [Youtube Video](https://youtu.be/Kpcrp0yLhyw)
